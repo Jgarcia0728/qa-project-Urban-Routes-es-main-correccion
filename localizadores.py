@@ -1,0 +1,27 @@
+from selenium.webdriver.common.by import By
+
+class UrbanRoutesPage:
+
+    from_field = (By.ID, 'from')
+    to_field = (By.ID, 'to')
+    request_order_taxi_button = (By.CSS_SELECTOR, ".button.round")
+    comfort_rate_icon = (By.XPATH, "//div[@class='tcard-title' and text()='Comfort']")
+    select_button_number = (By.CLASS_NAME, "np-text")
+    phone_number_field = (By.ID, "phone")
+    phone_next_button = (By.XPATH, "//*[text()=\"Siguiente\"]")
+    code_phone_button = (By.XPATH, "//*[@id='code']")
+    confirm_button = (By.XPATH, '//*[text()="Confirmar"]')
+    payment_method = (By.CSS_SELECTOR, ".pp-button.filled")
+    credit_click = (By.CLASS_NAME, 'card-number-input')
+    add_card = (By.CSS_SELECTOR, ".pp-row.disabled")
+    card_numbers = (By.XPATH, '//*[@id="number"]')
+    card_cvv = (By.XPATH, '//div[@class="card-code-input"]/input[@id="code"]')
+    out_page_card = (By.CLASS_NAME, "card-wrapper")
+    add_card_button = (By.XPATH, '//*[text()="Agregar"]')
+    close_button = (By.XPATH, '//*[@id="root"]/div/div[2]/div[2]/div[1]/button')
+    message_driver = (By.XPATH, '//*[@id="comment"]')
+    write_message = (By.CSS_SELECTOR, "#comment")
+    add_blankets_scarves = (By.XPATH, '//*[@id="root"]/div/div[3]/div[3]/div[2]/div[2]/div[4]/div[2]/div[1]/div/div[2]/div/span')
+    order_icecream = (By.CLASS_NAME, "counter-plus")
+    order_a_taxi = (By.CLASS_NAME, "smart-button-main")
+    modal_taxi = (By.CLASS_NAME, "order-body")

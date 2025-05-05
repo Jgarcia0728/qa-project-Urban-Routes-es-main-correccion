@@ -23,15 +23,27 @@ El proyecto lo creamos en PyCharm usamos Python como Lenguaje de programación\
 principal; pytest como Framework de pruebas utilizado para automatizar y\
 gestionar las pruebas, biblioteca de Python para realizar solicitudes HTTP.
 
-###### Ejecución
-Para ejecutar nuestras pruebas primero debemos identificar los locadizadores\
-de forma manual por medio de Devtools identificando el selector,\
-incluimos los métodos de forma organizada y que se identifique el paso a paso\
-para ejecutar las acciones de cada localizador identificado.'
+###### Ejecución pruebas
 
-Posterior generamos las pruebas teniendo muy presente que deben ser claras\
-y enfocadas para lo que se quiere probar enfocadas en la lista de comprobación.\
-Las pruebas deben estar alineasdas con respecto a los métodos y los requerimientos.
+Para las pruebas debemos tener muy presente que deben ser claras\
+y enfocadas para lo que se quiere probar, directamente relacionadas en la lista de comprobación.\
+Las pruebas deben estar alineasdas con respecto a los métodos y los requerimientos.\
 
-##### Comando de ejecución:/
-C:\Users\MI EQUIPO\projects\qa-project-Urban-Routes-es-main\main.py
+*Abre el proyecto en PyCharm\
+*Abre el archivo "main.py"\
+*Verifica que tengas instalado pytest\
+*Haz click derecho sobre el archivo de pruebas "main.py"\
+*Seleciona la opción (Run python test for...) o de click en el en el icono de play en la parte superior\
+
+
+*Si vas a correr la prube desde una terminal valida si tienes pytest instalado\
+(abre la terminal y ejecuta "pip install pytest")\
+*Desde el directorio raiz del proyecto ejecuta el comando "pytest -v"\
+
+Es fundamental que antes de correr las pruebas actualice la url
+
+
+
+##### Comando de ejecución de las pruebas:/
+
+pytest \projects\qa-project-Urban-Routes-es-main\main.py
